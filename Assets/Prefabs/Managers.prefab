@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8180250984846184694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8180250984846184692}
+  - component: {fileID: 8180250984846184693}
+  - component: {fileID: 8180250984846184459}
+  - component: {fileID: 8180250984846184457}
+  - component: {fileID: 8180250984846184458}
+  - component: {fileID: 8180250984846184456}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8180250984846184692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8180250984846184693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc238f2990d5b1645b16a19cf1bfefc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballController: {fileID: 0}
+--- !u!114 &8180250984846184459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae3fc9c15c91c047961fdf66b4990d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelGenerator: {fileID: 0}
+  ballController: {fileID: 0}
+  gameProgress: {fileID: 8180250984846184693}
+--- !u!114 &8180250984846184457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c451f5bf58aff45a1622f823e0afb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballController: {fileID: 0}
+  levelProgress: {fileID: 8180250984846184693}
+  scores: 0
+  recordScores: 0
+--- !u!114 &8180250984846184458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737347ca5f99df949a2ee40d315b1c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballController: {fileID: 0}
+  inputRotator: {fileID: 0}
+--- !u!114 &8180250984846184456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180250984846184694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b22f6c937248c14c90727054f4bf6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palette:
+  - axisColor: {r: 0.7529412, g: 0.6784314, b: 0.6784314, a: 1}
+    ballColor: {r: 0.30588236, g: 0.8117647, b: 0.29411766, a: 1}
+    defaultColor: {r: 0, g: 0, b: 0, a: 1}
+    trapColor: {r: 0.94509804, g: 0.09411765, b: 0.09411765, a: 1}
+    finishColor: {r: 0.49411765, g: 1, b: 0.5176471, a: 1}
+    bgColor: {r: 0.38039216, g: 0.8862745, b: 0.5803922, a: 1}
+  - axisColor: {r: 0.8584906, g: 0.7723692, b: 0.31990921, a: 1}
+    ballColor: {r: 0.23851903, g: 0.6333518, b: 0.754717, a: 1}
+    defaultColor: {r: 0.11992703, g: 0.1450113, b: 0.5188679, a: 1}
+    trapColor: {r: 0.8396226, g: 0.20512724, b: 0.06732824, a: 1}
+    finishColor: {r: 0.1533019, g: 0.34409848, b: 0.6132076, a: 1}
+    bgColor: {r: 0.8679245, g: 0.69302195, b: 0.3725525, a: 1}
+  - axisColor: {r: 0.8679245, g: 0.8154826, b: 0.31523672, a: 1}
+    ballColor: {r: 0.5168853, g: 0.7830189, b: 0.15143289, a: 1}
+    defaultColor: {r: 0.65108234, g: 0.7075472, b: 0.110137075, a: 1}
+    trapColor: {r: 0.8207547, g: 0.24408804, b: 0.07355818, a: 1}
+    finishColor: {r: 0.40580976, g: 0.6415094, b: 0.075649686, a: 1}
+    bgColor: {r: 0.5896769, g: 0.764151, b: 0.34242615, a: 1}
+  - axisColor: {r: 0.43961373, g: 0.64555883, b: 0.8396226, a: 1}
+    ballColor: {r: 0.2080613, g: 0.09692062, b: 0.6226415, a: 1}
+    defaultColor: {r: 0.10087826, g: 0.5471698, b: 0.059362773, a: 1}
+    trapColor: {r: 0.8301887, g: 0.81741744, b: 0.07440368, a: 1}
+    finishColor: {r: 0.27086765, g: 0.128649, b: 0.5566038, a: 1}
+    bgColor: {r: 0.58027506, g: 0.39288896, b: 0.764151, a: 1}
+  - axisColor: {r: 0.14150941, g: 0.09681581, b: 0.08744214, a: 1}
+    ballColor: {r: 0.6415094, g: 0.6025638, b: 0.5961196, a: 1}
+    defaultColor: {r: 0.6226415, g: 0.21058767, b: 0.09692062, a: 1}
+    trapColor: {r: 0.7264151, g: 0.15088135, b: 0.0788092, a: 1}
+    finishColor: {r: 0.6855749, g: 0.6514774, b: 0.754717, a: 1}
+    bgColor: {r: 0.7075472, g: 0.27655944, b: 0.1702118, a: 1}
+  - axisColor: {r: 0.9150943, g: 0.7165702, b: 0.40143287, a: 1}
+    ballColor: {r: 0.084905684, g: 0.08056695, b: 0.0796992, a: 1}
+    defaultColor: {r: 1, g: 0.6938923, b: 0, a: 1}
+    trapColor: {r: 0.8490566, g: 0.12249793, b: 0.108134575, a: 1}
+    finishColor: {r: 0.08764752, g: 0.08410465, b: 0.09433961, a: 1}
+    bgColor: {r: 0.8679245, g: 0.70758873, b: 0.21698113, a: 1}
+  axisMaterial: {fileID: 2100000, guid: 83d17aba6aca5a044bec0244981d5b52, type: 2}
+  ballMaterial: {fileID: 2100000, guid: 3310472a0bede0942b35376965e60c4a, type: 2}
+  defaultMaterial: {fileID: 2100000, guid: 50f28881ee5da614ab273f811c28be6e, type: 2}
+  trapMaterial: {fileID: 2100000, guid: 22ccc7a1b02d9ba4ab895da8f55b588c, type: 2}
+  finishMaterial: {fileID: 2100000, guid: 3a6224b52312b6249b07440c0f05786c, type: 2}
+  bgImage: {fileID: 0}
